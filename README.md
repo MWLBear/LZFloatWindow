@@ -9,3 +9,4 @@ ios 悬浮窗
     [self.floatWindow show];
     
   
+![](https://github.com/MWLBear/LZFloatWindow/blob/master/%E6%82%AC%E6%B5%AE.gif)
