@@ -7,6 +7,7 @@ ios 悬浮窗
 >
     self.floatWindow = [[LZFloatWindow alloc]initWithFrame:CGRectMake(0, 0, 40, 40) mainImageName:[UIImage imageNamed:@"timg.jpeg"]];
     [self.floatWindow show];
-    
-  
-![](https://github.com/MWLBear/LZFloatWindow/blob/master/%E6%82%AC%E6%B5%AE.gif)
+       
+<div style="align: center">
+<img src="https://github.com/MWLBear/LZFloatWindow/blob/master/%E6%82%AC%E6%B5%AE.gif"/>
+</div>
