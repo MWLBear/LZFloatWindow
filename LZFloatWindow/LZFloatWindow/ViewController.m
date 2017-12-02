@@ -7,16 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "LZFloatWindow.h"
 
 @interface ViewController ()
-
+@property(nonatomic,strong)LZFloatWindow*floatWindow;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.floatWindow = [[LZFloatWindow alloc]initWithFrame:CGRectMake(0, 0, 40, 40) mainImageName:[UIImage imageNamed:@"timg.jpeg"]];
+    [self.floatWindow show];
+    
 }
 
 - (void)didReceiveMemoryWarning {

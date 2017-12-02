@@ -13,6 +13,8 @@
 		286FE1841FD240CA008AD465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286FE1821FD240CA008AD465 /* Main.storyboard */; };
 		286FE1861FD240CA008AD465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286FE1851FD240CA008AD465 /* Assets.xcassets */; };
 		286FE1891FD240CA008AD465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286FE1871FD240CA008AD465 /* LaunchScreen.storyboard */; };
+		286FE1921FD240DC008AD465 /* LZFloatWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 286FE1911FD240DC008AD465 /* LZFloatWindow.m */; };
+		286FE1941FD24200008AD465 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 286FE1931FD24200008AD465 /* timg.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		286FE1851FD240CA008AD465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286FE1881FD240CA008AD465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		286FE18A1FD240CA008AD465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286FE1901FD240DC008AD465 /* LZFloatWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZFloatWindow.h; sourceTree = "<group>"; };
+		286FE1911FD240DC008AD465 /* LZFloatWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFloatWindow.m; sourceTree = "<group>"; };
+		286FE1931FD24200008AD465 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		286FE1781FD240CA008AD465 /* LZFloatWindow */ = {
 			isa = PBXGroup;
 			children = (
+				286FE1931FD24200008AD465 /* timg.jpeg */,
+				286FE1901FD240DC008AD465 /* LZFloatWindow.h */,
+				286FE1911FD240DC008AD465 /* LZFloatWindow.m */,
 				286FE17C1FD240CA008AD465 /* AppDelegate.h */,
 				286FE17D1FD240CA008AD465 /* AppDelegate.m */,
 				286FE17F1FD240CA008AD465 /* ViewController.h */,
@@ -138,6 +146,7 @@
 			files = (
 				286FE1891FD240CA008AD465 /* LaunchScreen.storyboard in Resources */,
 				286FE1861FD240CA008AD465 /* Assets.xcassets in Resources */,
+				286FE1941FD24200008AD465 /* timg.jpeg in Resources */,
 				286FE1841FD240CA008AD465 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +160,7 @@
 			files = (
 				286FE1811FD240CA008AD465 /* ViewController.m in Sources */,
 				286FE17E1FD240CA008AD465 /* AppDelegate.m in Sources */,
+				286FE1921FD240DC008AD465 /* LZFloatWindow.m in Sources */,
 				286FE17B1FD240CA008AD465 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
